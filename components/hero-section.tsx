@@ -64,7 +64,7 @@ export function HeroSection() {
               {/* Replace YOUR_VIDEO_ID with the actual YouTube video ID */}
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://youtu.be/IQL1AQ-j2pc?si=DpRto2CKkWHCcvM5"
+                src="https://www.youtube.com/embed/q01z2vrQTrE"
                 title="Judit 18 Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen

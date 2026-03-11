@@ -66,7 +66,7 @@ export function TimelineSection() {
       {/* Section header */}
       <div className="max-w-4xl mx-auto text-center mb-16 md:mb-24">
         <p className="text-gold uppercase tracking-[0.3em] text-sm mb-4"
-           style={{ fontFamily: "var(--font-montserrat)" }}>
+          style={{ fontFamily: "var(--font-montserrat)" }}>
           A Journey Through Time
         </p>
         <h2 className="text-4xl md:text-5xl lg:text-6xl font-light text-charcoal mb-6">
@@ -74,8 +74,8 @@ export function TimelineSection() {
           <span className="italic font-medium">Memories</span>
         </h2>
         <p className="text-muted-foreground text-lg max-w-xl mx-auto font-light"
-           style={{ fontFamily: "var(--font-montserrat)" }}>
-          Each year a chapter, each moment a treasure. 
+          style={{ fontFamily: "var(--font-montserrat)" }}>
+          Each year a chapter, each moment a treasure.
           Scroll through the beautiful story of your life.
         </p>
       </div>
@@ -104,7 +104,7 @@ export function TimelineSection() {
       <div className="max-w-2xl mx-auto text-center mt-24 md:mt-32">
         <div className="inline-block p-8 md:p-12 rounded-2xl bg-card/80 backdrop-blur-sm border border-gold/10 shadow-xl">
           <p className="text-gold uppercase tracking-[0.2em] text-xs mb-4"
-             style={{ fontFamily: "var(--font-montserrat)" }}>
+            style={{ fontFamily: "var(--font-montserrat)" }}>
             And Now
           </p>
           <h3 className="text-3xl md:text-4xl font-light text-charcoal mb-4">
@@ -112,9 +112,8 @@ export function TimelineSection() {
             <span className="italic font-medium">Chapter</span>
           </h3>
           <p className="text-muted-foreground font-light"
-             style={{ fontFamily: "var(--font-montserrat)" }}>
-            May your 18th year be filled with love, joy, and 
-            endless beautiful moments yet to come.
+            style={{ fontFamily: "var(--font-montserrat)" }}>
+            Que tu 18 aniversario esté lleno de amor, alegría e infinitos momentos hermosos por venir.
           </p>
         </div>
       </div>
