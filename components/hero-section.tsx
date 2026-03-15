@@ -34,16 +34,21 @@ export function HeroSection() {
           className={`transition-all duration-1000 ease-out ${isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
             }`}
         >
-          <p className="text-gold uppercase tracking-[0.3em] text-sm md:text-base font-medium mb-4"
-            style={{ fontFamily: "var(--font-montserrat)" }}>
+          <p
+            className="text-gold uppercase tracking-[0.3em] text-sm md:text-base font-medium mb-4"
+            style={{ fontFamily: "var(--font-montserrat)" }}
+          >
             Celebrating 18 Years
           </p>
+
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-light text-charcoal mb-6 tracking-tight">
-            Feliz Cumple,{" "}
-            <span className="italic font-medium">Judit</span>
+            Feliz Cumple, <span className="italic font-medium">Judit</span>
           </h1>
-          <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light"
-            style={{ fontFamily: "var(--font-montserrat)" }}>
+
+          <p
+            className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed font-light"
+            style={{ fontFamily: "var(--font-montserrat)" }}
+          >
             18 años de hermosos momentos, recuerdos preciados y un viaje que apenas comienza.
           </p>
         </div>
@@ -61,32 +66,13 @@ export function HeroSection() {
 
             {/* Video wrapper */}
             <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl shadow-charcoal/10 bg-charcoal/5">
-              {/* Replace YOUR_VIDEO_ID with the actual YouTube video ID */}
               <iframe
                 className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/q01z2vrQTrE"
+                src="https://www.youtube.com/embed/Xtn-rNihU8I"
                 title="Judit 18 Video"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
-
-              {/* Placeholder overlay - remove when adding real video */}
-              <div className="absolute inset-0 flex items-center justify-center bg-gradient-to-br from-charcoal/80 to-charcoal/90">
-                <div className="text-center text-ivory/90 p-8">
-                  <div className="w-20 h-20 mx-auto mb-6 rounded-full border-2 border-gold/40 flex items-center justify-center">
-                    <svg className="w-8 h-8 text-gold ml-1" fill="currentColor" viewBox="0 0 24 24">
-                      <path d="M8 5v14l11-7z" />
-                    </svg>
-                  </div>
-                  <p className="text-sm uppercase tracking-widest text-gold/80 mb-2"
-                    style={{ fontFamily: "var(--font-montserrat)" }}>
-                    Video Message
-                  </p>
-                  <p className="text-lg font-light">
-                    Replace with your YouTube video
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
